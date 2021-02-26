@@ -13,32 +13,195 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="#">Hidden brand</a>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                  </li>
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
+                <div class="collapse navbar-collapse text-center" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item py-1 px-2"><a class="nav-link" href="#top">Home</a></li>
+                        <li class="nav-item py-1"><a class="nav-link" href="#section-one">Services</a></li>
+                        <a class="mr-auto d-none d-md-none d-lg-block py-auto px-2" href="#top"><img src="img/logo.png" height="50" width="50"></a>
+                        <li class="nav-item py-1"><a class="nav-link" href="#section-two">About Us</a></li>
+                        <li class="nav-item py-1 px-2"><a class="nav-link" href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header id="top" class="jumbotron">
+            <div class="container">
+                <div class="row row-header">
+                    <div class="col col-md-12 text-center">
+                        <img class="img-fluid" src="img/official.png" height="450px" width="450px">
+                        <p><i>"For once, the American taxpayer is getting a good deal on a defense contract."</i> - War Dogs</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container text-center">
+
+            <div id="section-one" class="row row-content align-items-center">
+                <div class="col-sm">
+                    <div class="row align-items-start">
+                        <h3 class="py-3">Data-Driven Analytics</h3>
+                    </div>
+                    <div class="row align-items-end">
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque hic eius id cum asperiores, distinctio maxime expedita nulla sequi ipsum quidem beatae numquam illum. Earum adipisci deserunt eos velit hic?
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="row align-items-start">
+                        <h3 class="py-3">Custome Web/Software Solutions</h3>
+                    </div>
+                    <div class="row align-items-end">
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque hic eius id cum asperiores, distinctio maxime expedita nulla sequi ipsum quidem beatae numquam illum. Earum adipisci deserunt eos velit hic?
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="row align-items-start">
+                        <h3 class="py-3">Government Contracting</h3>
+                    </div>
+                    <div class="row align-items-end">
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque hic eius id cum asperiores, distinctio maxime expedita nulla sequi ipsum quidem beatae numquam illum. Earum adipisci deserunt eos velit hic?
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="section-two" class="row row-content align-items-center">
+                <div class="col-12 col-sm-3 order-sm-last col-md-3">
+                    <h3>Co-Founder,</h3>
+                    <h5>President</h5> <br>
+                    <img class="d-flex mr-3 rounded mx-auto" src="img/pavel.png" height="200px" width="200px" alt="Generic placeholder image">
+                </div>
+                <div class="col col-sm order-sm-first col-md">
+                    <div class="media-body">
+                        <h2 class="mt-0">Pavel W. Shonka</h2> <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quos ex repudiandae dolore quam veritatis voluptatem omnis doloremque laudantium iure numquam impedit pariatur quisquam, soluta saepe modi possimus tempora sed?</p>
+                        <p class="d-none d-sm-block">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque inventore quas voluptatem iure tempora commodi repellendus, ipsum aut reiciendis quaerat odit ullam at, distinctio numquam amet corrupti fuga et exercitationem.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row row-content align-items-center">
+                <div class="col-12 col-sm-3 col-md-3">
+                    <h3>Co-Founder,</h3>
+                    <h5>V.P. of Innovation,</h5>
+                    <h5>Business Development Specialist</h5> <br>
+                    <img class="d-flex ml-3 rounded mx-auto" src="img/argent.png" height="200px" width="200px" alt="Argent Rhealm">
+
+                </div>
+                <div class="col col-sm col-md">
+                    <div class="media">
+                        <div class="media-body">
+                            <h2 class="mt-0">Argent Rhealm</h2> <br>
+                            <p>
+                                Argent is the majority owner of P&A Sol with six years of programming and three years of management experience. At 18, he started
+                                a painting business bringing in over $50,000 in sales in a city three hours away from his hometown with no connections in two months.
+                                He hired and trained painters to carry out the work within the following two months. At 19, he worked freelance building websites and doing
+                                I.T. service work for local businesses and politicians. At 20, he started e-commerce and within two years built two succesful stores making
+                                over five and six figures respectively, SicWatches and SmartTechPicks. At Oregon State University, Argent was part of many organizations, 
+                                most notably Alpha Kappa Psi, a business fraternity holding positions from Service Chairman, VP of Finance, and President. 
+                                Argent also held an executive financial advisory position in the Robotics Club, the largest club at OSU with over 300 student members. Argent holds
+                                certificates in Full-Stack Development with React Specialization, Google IT Support and Automation with Python Specialization, and AWS Fundamentals.
+                            </p>
+                            <p class="d-none d-sm-block">
+                                Argent on his free time enjoys learning anything from technology to history and the arts. He is also an avid adventurer and considers himself a nomad at times.
+                                Some of his hobbies include reading, trading/investing in the stock market, and lifting weights. Fun fact about him is that he is multi-lingual, speaking Persian, Russian,
+                                and English but if you also want to consider programming languages the list just goes on.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--
+        <footer class="bg-dark text-secondary">
+            <div class="text-center p-2">
+                All Rights Reserved © P&A Sol, LLC
+            </div>
+        </footer>
+    -->
+        <footer class="bg-secondary text-white text-center">
+            <!-- Grid container -->
+            <div class="container p-4">
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Footer Content</h5>
+        
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                    molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                    aliquam voluptatem veniam, est atque cumque eum delectus sint!
+                  </p>
+                </div>
+                <!--Grid column-->
+        
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Links</h5>
+        
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!" class="text-white">Link 1</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Link 2</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Link 3</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Link 4</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+        
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase mb-0">Links</h5>
+        
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="#!" class="text-white">Link 1</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Link 2</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Link 3</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Link 4</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+        
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2020 Copyright:
+              <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+        
         <!-- Bootstrap Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     </body>
