@@ -29,4 +29,12 @@ body {
     color: floralwhite;
 }
 
+.text-foot {
+    color: #d84545
+}
+
+a:link {
+    text-decoration: none;
+}
+
 body, html { overflow-x:hidden; }
