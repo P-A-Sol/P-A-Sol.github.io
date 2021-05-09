@@ -26,7 +26,7 @@
                         <li class="nav-item py-1"><a class="nav-link" href="#section-one">Services</a></li>
                         <a class="mr-auto d-none d-md-none d-lg-block py-auto px-2" href="#top"><img src="img/logo.png" height="50" width="50"></a>
                         <li class="nav-item py-1"><a class="nav-link" href="#section-two">About Us</a></li>
-                        <li class="nav-item py-1 px-2"><a class="nav-link" href="#">Contact Us</a></li>
+                        <li class="nav-item py-1 px-2"><a class="nav-link" href="#section-three">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
@@ -138,6 +138,30 @@
                 </div>
             </div>
             -->
+            <div id="section-three" class="row row-content align-items-center">
+                <form action="https://formspree.io/f/mqkwergp" method="POST">
+                    
+                    <label>Your Name:</label>
+                    <input name="name" type="text" required/>
+                    
+                    <label>Subject:</label>
+                    <input type="text" name="_subject" />
+
+                    <label>
+                        Your email:
+                        <input type="email" name="_replyto">
+                    </label>
+
+                    <label>
+                        Your message:
+                        <textarea name="message"></textarea>
+                    </label>
+
+                    <!-- your other form fields go here -->
+
+                    <button type="submit">Send</button>
+                </form>
+            </div>
         </div>
     
         <footer class="bg-secondary text-white">
